@@ -1,6 +1,8 @@
 public class lesson_09 {
     //Скрой все внутренние переменные класса Cat.
-    Cat2 cat = new Cat2("Барсик",7,3.5f);
+    public static void main(String[] args) {
+        Cat2 cat = new Cat2("Барсик",7,3.5f);
+    }
 }
 class Cat2 {
     private String name;
