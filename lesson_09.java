@@ -6,10 +6,6 @@ class Cat2 {
     private String name;
     private int age;
     private float weight;
-
-    public Cat2() {
-    }
-
     public Cat2(String name, int age, float weight) {
         this.name = name;
         this.age = age;
